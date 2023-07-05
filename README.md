@@ -1,4 +1,4 @@
-## HospitalAdmission-smart-contract-using-Functions-and-Errors handing 
+# HospitalAdmission-smart-contract-using-Functions-and-Errors handing 
 The HospitalAdmission smart contract facilitates the admission and discharge of patients in a hospital. It maintains a list of patients and their admission status.
 require(), assert(), and revert() statements used in the HospitalAdmission smart contract
 #Description
@@ -6,6 +6,7 @@ require(), assert(), and revert() statements used in the HospitalAdmission smart
 Patients in the system can have two possible statuses:
 - Admitted: The patient is currently admitted to the hospital.
 - Discharged: The patient has been discharged from the hospital.
+# Description
 ## Contract Functions
 ### admitPatient
 function admitPatient(string memory _name) public
