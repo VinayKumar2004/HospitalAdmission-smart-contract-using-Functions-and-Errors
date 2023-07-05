@@ -10,7 +10,9 @@ Patients in the system can have two possible statuses:
 ### admitPatient
 function admitPatient(string memory _name) public
 This function allows the addition of a new patient to the system. It requires a non-empty patient name. The patient is marked as "Admitted" upon admission.
-require(bytes(_name).length > 0, "Patient name must be provided."): This require() statement ensures that the provided patient name is not empty. If the condition evaluates to false, the transaction reverts with the given error message.
+
+require(bytes(_name).length > 0, "Patient name must be provided."):
+This == require() == statement ensures that the provided patient name is not empty. If the condition evaluates to false, the transaction reverts with the given error message.
 assert(patients.length < MAX_CAPACITY): This assert() statement checks if the number of patients in the system is less than the maximum capacity defined by MAX_CAPACITY. If the condition evaluates to false, indicating that the capacity has been reached, the assertion fails, and the transaction reverts.
 ### dischargePatient
 function dischargePatient(uint256 _patientIndex) public
