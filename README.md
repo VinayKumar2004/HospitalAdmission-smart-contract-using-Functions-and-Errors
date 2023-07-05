@@ -48,3 +48,22 @@ This **require()** statement checks if the provided patient index is within the 
 revert("Unknown patient status."):
 
 This **revert()** statement is reached if the patient's status is neither "Admitted" nor "Discharged". It reverts the function execution with the given error message.
+# Executing program
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HospitalAdmission.sol). Copy and paste the following code into the file:
+
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HospitalAdmission.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HospitalAdmission" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Interact with the deployed contract: Once the contract is deployed, you can interact with it by calling its functions. In the case of the HospitalAdmission contract, you can call the admitPatient, dischargePatient, or getPatientStatus functions to admit a patient, discharge a patient, or retrieve a patient's status.
+## Additional Information
+- The maximum capacity of the hospital is set to 2 patients. If the capacity is reached, further admissions will fail.
+- The patient list can be accessed publicly via the patients array.
+- The contract uses the SPDX-License-Identifier "MIT".
+
+# Authors
+Vinay Kumar (https://github.com/VinayKumar2004)
+# License
+This project is licensed under the MIT License - see the LICENSE.md file for details
