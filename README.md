@@ -58,6 +58,8 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HospitalAdmission" contract from the dropdown menu, and then click on the "Deploy" button.
 
 Interact with the deployed contract: Once the contract is deployed, you can interact with it by calling its functions. In the case of the HospitalAdmission contract, you can call the admitPatient, dischargePatient, or getPatientStatus functions to admit a patient, discharge a patient, or retrieve a patient's status.
+# Video walk through 
+(https://www.loom.com/share/c9d0f842f2fd46159f7def0915817b3d?sid=dc8d2e8d-692e-4d2a-b73b-5e304e69c208)
 ## Additional Information
 - The maximum capacity of the hospital is set to 2 patients. If the capacity is reached, further admissions will fail.
 - The patient list can be accessed publicly via the patients array.
